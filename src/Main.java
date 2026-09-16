@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*******************************
  * Name: Your name
  * Class: ICS3U
@@ -19,22 +21,27 @@
  * Ask for the capitalized words in the input. Print out the full story in the output.
  * See https://www.thewordfinder.com/wordlibs/story/41/ for an example.
  ********************************/
-import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		// YOUR CODE GOES HERE!!!!
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("Give me a plural noun:");
+		String pluralNoun1 = in.nextLine();
+		System.out.println("Give me a Noun");
+		String noun1 = in.nextLine(); 
+		System.out.println("Give me a verb");
+		String verb1 = in.nextLine();
+		System.out.println("Give me an adverb");
+		String adverb1 = in.nextLine();
+		System.out.println("Give me a Body Part");
+		String bodypart1 =in.nextLine();
+		System.out.println("Give me a plural noun");
+		String pluralNoun2 = in.nextLine();
+		System.out.println("A recent survey informs us that one out of every 3 "+pluralNoun1+" has a cell "+noun1+".");
+		System.out.println("Fortunately, "+verb1+" over a mobile "+noun1+" has improved " +adverb1+".");
+		System.out.println("Today, "+bodypart1+"-held "+pluralNoun2+" are all the rage");
 		in.close();//Don't forget to clean up after yourselves!
 	}
 
