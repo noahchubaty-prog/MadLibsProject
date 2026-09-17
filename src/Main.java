@@ -39,9 +39,20 @@ public class Main {
 		String bodypart1 =in.nextLine();
 		System.out.println("Give me a plural noun");
 		String pluralNoun2 = in.nextLine();
+		System.out.println("Give me a plural Noun"); 
+		String pluralNoun3 = in.nextLine();
+		System.out.println("Give me an adverb");
+		String adverb2 = in.nextLine();
+		System.out.println("give me an Adjective");
+		String Adjective1 = in.nextLine();
+		System.out.println("Give me a noun");
+		String noun2 = in.nextLine(); 
+		
+		
 		System.out.println("A recent survey informs us that one out of every 3 "+pluralNoun1+" has a cell "+noun1+".");
 		System.out.println("Fortunately, "+verb1+" over a mobile "+noun1+" has improved " +adverb1+".");
 		System.out.println("Today, "+bodypart1+"-held "+pluralNoun2+" are all the rage");
+		System.out.println("In restaurants, you find many "+pluralNoun3+" talking "+adverb2+" into their "+Adjective1+" phones as they eat their "+noun2+".");
 		in.close();//Don't forget to clean up after yourselves!
 	}
 
