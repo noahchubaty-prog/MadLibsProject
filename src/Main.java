@@ -47,12 +47,35 @@ public class Main {
 		String Adjective1 = in.nextLine();
 		System.out.println("Give me a noun");
 		String noun2 = in.nextLine(); 
+		System.out.println("Give me a number");
+		String Number1 = in.nextLine();
+		System.out.println("Give me a pulral noun");
+		String pluralNoun4 = in.nextLine();
+		System.out.println("Give me a noun");
+		String noun3 = in.nextLine();
+		System.out.println("Give me a verb");
+		String verb2 = in.nextLine();
+		System.out.println("Give me a Noun");
+		String noun4 =in.nextLine();
+		System.out.println("Give me a noun");
+		String noun5 =in.nextLine();
+		System.out.println("Give me a Number");
+		String Number2 =in.nextLine();
+		System.out.println("Give me an adjective");
+		String Adjective2 =in.nextLine();
+		System.out.println("Give me a plural noun");
+		String pluralNoun5 =in.nextLine();
+		System.out.println("Give me a body part");
+		String bodypart2 =in.nextLine();
 		
 		
 		System.out.println("A recent survey informs us that one out of every 3 "+pluralNoun1+" has a cell "+noun1+".");
 		System.out.println("Fortunately, "+verb1+" over a mobile "+noun1+" has improved " +adverb1+".");
 		System.out.println("Today, "+bodypart1+"-held "+pluralNoun2+" are all the rage");
 		System.out.println("In restaurants, you find many "+pluralNoun3+" talking "+adverb2+" into their "+Adjective1+" phones as they eat their "+noun2+".");
+		System.out.println(""+Number1+" percent of American "+pluralNoun4+" place their "+noun3+" calls from their cars as they are "+verb2+" to and from their home office or "+noun4+".");
+		System.out.println("Walking and talking are now the in "+noun5+" to do.");
+		System.out.println("Over "+Number2+" percent of Americans walk our "+Adjective2+" streets with a handheld "+pluralNoun5+" pressed agaist their "+bodypart2+".");
 		in.close();//Don't forget to clean up after yourselves!
 	}
 
